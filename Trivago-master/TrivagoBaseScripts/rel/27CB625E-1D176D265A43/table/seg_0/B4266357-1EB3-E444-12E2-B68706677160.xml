@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4266357-1EB3-E444-12E2-B68706677160" name="TBL_ESTADIA_X_HOTEL">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:38:24 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADIA" id="3EA2F797-BE7F-78C1-A1BC-22283257621C">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:38:42 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="635AE925-B674-4723-970A-C15356D3152B" referredColumn="2E7FB186-FC08-94DA-5B85-34CD3E7F3D42"/>
+</associations>
+</Column>
+<Column name="CODIGO_HOTEL" id="E430A1E1-77EA-F27A-EFB4-142D8A99F6ED">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:39:07 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA45DF12-EB70-38DA-543F-33C017F68F31" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A51E91EF-1774-7BB7-11E6-9A9B9EB26BBA" name="TBL_ESTADIA_X_HOTEL_TBL_ESTADIA_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:38:42 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA2F797-BE7F-78C1-A1BC-22283257621C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A689A8FF-683C-4C0B-CA67-57106412020B" name="TBL_ESTADIA_X_HOTEL_TBL_HOTELES_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:39:07 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E430A1E1-77EA-F27A-EFB4-142D8A99F6ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

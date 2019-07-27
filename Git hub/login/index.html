@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign in to GitHub · GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/custom.css">
+</head>
+<body>
+    <div class="div-img">
+        <a href="../landing-page/index.html"><img src="img/logo.png" alt="logo github"></a>
+    </div>
+
+    <center><h1>Sign in with github</h1></center>
+    <p id="p-validacion" class="p-validar display">Incorrect username or password. 
+        <button type="button" class="btn-x" onclick="cerrarDiv('p-validacion');" id="btn-cerrar"><i class="fas fa-times"></i></button>
+    </p>
+
+    <section class="section-login">
+        <form>
+            <label for="txt" class="lable-login">Username or email address</label>
+            <br>
+            <input type="text" id="txt-username">
+            <br>
+            <label for="password">Password <a href="../password-reset/index.html" class="anchor-password">Forgot password?</a></label>
+            <br>
+            <input type="password" id="password" >
+            <br>
+            <button type="button" class="btn1" id="btn-signin">Sign in</button>
+        </form>
+    </section>
+
+    <!--<center>
+        <div class="div-1">
+            <p>new to github? <a href="#" class="anchor-2">create an account</a></p>
+        </div>
+    </center>-->
+    <center>
+        <p>New to GitHub? <a href="../sign-up/index.html" class="anchor-2">create an account</a></p>
+    </center>
+    <div class="div-2">
+        <ul>
+            <li  class="li-1"><a href="#" class="anchor-3g">Terms</a></li>
+            <li  class="li-1"><a href="#" class="anchor-3g">Privacy</a></li>
+            <li  class="li-1"><a href="#" class="anchor-3g">Security</a></li>
+            <li  class="li-1 li"><a href="#" class="anchor-3g anchor-color">Contact GitHub</a></li>
+        </ul>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>

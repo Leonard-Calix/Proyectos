@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF1FB7A0-3314-F039-FCD7-1AF1B762ECFB" containerWithKeyObject="3581FD70-1732-117B-EFCB-BEE754461AE4" localFKIndex="9DD884F5-FDB5-7F4D-80EE-B0A0E64298B1" name="TBL_RESERVACIONES_TBL_ESTADO_RESERVACION_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:06:27 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<referredTableLongName>TBL_ESTADO_RESERVACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>492D642B-4B9E-366E-93A1-4B83CF8DAC55</referredTableID>
+<keyObject>16D9625C-D771-701E-F57D-BB12DB031A3E</keyObject>
+<referredKeyID>16D9625C-D771-701E-F57D-BB12DB031A3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO_RESERVACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

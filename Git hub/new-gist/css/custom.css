@@ -1,0 +1,193 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+.nav-custom{
+    background-color: #24292E !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.div-nav-custom{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-position-custom{
+    position: absolute;
+    right: 15%;
+    width: inherit;
+    display: inherit;
+}
+
+@media (max-width: 991.98px){
+    .li-custom{
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 512px){
+    .form-display-none{
+        display: none;
+    }
+}
+
+.github-icon-nav{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.txt-search{
+    background: url(../img/search-button.png);
+    background-repeat: no-repeat;
+    background-size: 19px 20px;
+    background-position: 95% 50%;
+    background-color: #3F4448;
+    height: 30px;
+    width: 300px !important;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: -0.5px;
+    font-size: 13px !important;
+    font-family: inherit !important;
+    padding: 6px 8px;
+    font-weight: 600
+}
+
+.div-navbar-ul{
+    align-items: center;
+    display: flex !important;
+}
+
+.anchor-nav{
+    color: #ffffff !important;
+    
+}
+
+.font-awesome-customs{
+    color: #C8C9CB !important;
+}
+.background{
+    margin-top: 0;
+    color: #234766;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, #fff),linear-gradient(70deg, #e0f1ff 32%, #fffae3);
+    border-bottom-color: #fff;
+}
+.margenes{
+    max-width: 1012px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    line-height: 48px;
+    Color:#234766;
+}
+.input-1{
+    width: 100%;
+    background-color: #fafbfc;
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+.header{
+    padding: 5px 10px;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #e1e4e8;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top:1px solid #e1e4e8;
+    border-right: 1px solid  #e1e4e8;
+    border-left: 1px solid  #e1e4e8;
+    border-radius: 2px;
+   
+}
+.form-select{
+    max-width: 100%;
+    height: 34px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+/*.cuerpo{
+     border : solid 2px #fff;
+     background :white;
+     color : #ffffff;
+     padding : 4px;
+     width : 100%;
+     height : 100%;
+     overflow : auto;
+}
+*/
+textarea{
+border-radius:1px;
+width: 100%;
+border-color: #E1E4E8;
+}
+.btn-agregar{
+    color: #24292e;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    font-weight: 600;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 0.25em;
+    font-size:14px;
+}
+.btn-agregar:hover{
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+    background-position: -.5em;
+    border-color: rgba(27,31,35,0.35);
+}
+.btn-secreto{
+    background-color: #e6e1c0;
+    background-image: linear-gradient(#fffad5, #e6e1c0);
+    border-color: #e3deb9;
+}
+.btn-secreto:hover{
+    background-color: #dfd8ae;
+    background-image: linear-gradient(#fff7bc, #dfd8ae);
+    border-color: #dad3a3;
+}
+.cuadro-info{
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    border-bottom: 1px #E1E4E8;
+    
+
+}
+.background-superior{
+    background-color: #fafbfc;
+}
+
+@media(max-width:540px){
+    .btn-secreto{
+        padding: 6px;
+    }
+}

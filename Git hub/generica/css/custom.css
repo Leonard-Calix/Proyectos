@@ -1,0 +1,115 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin: 0px !important;
+    padding: 0px !important;
+    background-image: url(../img/github.jpg) !important;
+    background-position: center;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.img-logo{
+    width: 32px;
+    height: 32px;
+}
+
+
+.navbar{
+    padding-left: 184.500px;
+    /*padding-right: 184.500px;*/
+    margin: 0px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background: #24292E !important;
+}
+
+.sign{
+    font-weight: 600 !important;
+    color: #FFFFFF;
+}
+
+.sign:hover{
+    text-decoration: none;
+}
+
+.padding-container{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.anchor-img{
+    margin-right: 13px;
+    padding: 0px;
+}
+
+.div-fondo1{
+    background: url("../img/fondo1.png");
+    background-attachment: fixed;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2B3137;
+    width: 100%;
+    padding: 128px 0px;
+}
+
+.container{
+    padding: 0%;
+}
+
+li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 24px;
+    
+   
+}
+
+#li-1{
+    margin-left: 8px;
+}
+
+.anchor-li{
+    padding: 8px 0px 8px 0px !important;
+    color: #FFFFFF !important;
+   
+}
+.anchor-li:hover{
+    color: #C8C9CA !important;
+}
+
+#inp-txt{
+    background: url("../img/search-button.png");
+    background-repeat: no-repeat;
+    background-size: 19px 20px;
+    background-position: 95% 50%;
+    background-color: #3F4448;
+    height: 30px;
+    width: 200px;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: -0.5px;
+    font-size: 13px !important;
+    font-family: inherit !important;
+    padding: 6px 8px;
+    margin-right: 16px!important;
+    font-weight: 600;
+}
+
+#inp-txt::placeholder{
+    color: #8D8F91 !important;
+}
+
+#inp-txt:active{
+    border:0px;
+}
+h1{
+    color: #3F4448;
+    text-align: center;
+}
+main{
+   margin-top: 200px;
+}

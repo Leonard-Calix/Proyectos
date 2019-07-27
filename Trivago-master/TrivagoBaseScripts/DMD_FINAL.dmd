@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DMD_FINAL" id="A5EB70D2-B00F-23B3-52DD-D907766A437F" version="3.5">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 06:46:21 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A5EB70D2-B00F-23B3-52DD-D907766A437F</designId>
+</OSDM_Design>

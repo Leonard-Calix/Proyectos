@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECD65467-FF47-1F0C-346B-2D03FF61B3D8" name="TBL_HISTORIAL_BUSQUEDA">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:16:16 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HOTEL" id="DE3DF5A4-7654-B04C-20DF-21E23201EB2F">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:19:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62A2F158-EEA3-1E27-1F60-6507D45937D7" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="CODIGO_CIUDAD" id="A40E1579-F097-2960-714B-02953EB4734D">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:18:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E596F00-6B13-21D3-CFFC-FB223CF3E709" referredColumn="212A244B-EA90-C04C-97E4-329B18A2DD24"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="459BF72C-9FC7-C9C9-3AEC-F578668947B4">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:54:17 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE41387A-4D4E-0FDF-E272-7B702E68BC5D" referredColumn="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</associations>
+</Column>
+<Column name="FECHA" id="CE52752C-67AA-3BD5-414E-ACF58402A4F3">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:30:34 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_BUSQUEDA" id="B0DB4CE1-0479-4FEE-290A-B916E996932C">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:17:38 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A4C78FF-89CC-8EAD-4AFC-4495D7C49391" name="PRUEBA_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:22:32 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0DB4CE1-0479-4FEE-290A-B916E996932C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="488E4CEB-233A-FD22-6E35-58EFC640F489" name="PRUEBA__UN">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:21:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40E1579-F097-2960-714B-02953EB4734D"/>
+<colUsage columnID="DE3DF5A4-7654-B04C-20DF-21E23201EB2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26D5178B-26C1-2CCF-5FAC-25A616FD6E56" name="PRUEBA_TBL_CIUDAD_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:18:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40E1579-F097-2960-714B-02953EB4734D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="286CA9A6-9972-A640-E7B4-61513EF2FCCC" name="PRUEBA_TBL_HOTELES_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:19:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3DF5A4-7654-B04C-20DF-21E23201EB2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0CEA7CA-A0C8-9682-4E5F-E2E964442AD6" name="TBL_HISTORIAL_BUSQUEDA_TBL_PERSONA_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:54:17 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="459BF72C-9FC7-C9C9-3AEC-F578668947B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

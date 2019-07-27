@@ -1,0 +1,8 @@
+<?php
+    $archivo = fopen("../../data/usuarios.json","a+");
+    fwrite($archivo, json_encode($_POST)."\n");
+    fclose($archivo);
+    $respuesta["codigo"]=1;
+    $respuesta["mensaje"]="peticion realizada con exito";
+    echo json_encode($respuesta);
+?>

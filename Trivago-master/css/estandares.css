@@ -1,0 +1,42 @@
+.error{
+	border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+
+.contenedor_general{
+	max-width: 2000px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#titulo{
+	background-color: #ffffff; 
+	border-color: #9a9d9f;
+	width: 100%;
+	height: 6%;
+}
+
+#logo_enlace{
+	padding: 12px; 
+	height: 40px;
+}
+
+#cuerpo_general{
+	width: 100%;
+}
+
+#registrar{
+	padding-left: 30%;
+}
+
+@media screen and (max-width: 1500px){
+  #caja{
+  	display: block;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+	
+}

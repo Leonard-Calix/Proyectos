@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC78D52D-FDB0-E907-D1F4-ECEAC7E8BFF3" name="TBL_OPNIONES">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:51:19 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="43F8C9ED-4E81-277A-1047-6C91C3D69335">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:52:04 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D5F631E-DD8B-1EA9-F03A-C494C6918880" referredColumn="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="038A86B4-FD04-A844-3D9A-FB47F9CE6F71">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:59:29 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B187BCAF-176A-55A3-293B-7620CEB16DFF" referredColumn="CB2C3F6C-0348-F211-D6CA-10D2A6801F66"/>
+</associations>
+</Column>
+<Column name="CODIGO_HOTEL" id="F5A9AB15-775F-0951-2D14-B840CA7A02CC">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:59:37 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7604992C-5D0B-6AA9-838B-2CF26A2755D8" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="PUNTAJE" id="6C48A405-94AA-B006-3E68-F94CD267E9E7">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-08 03:19:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="524F3DE7-7C6F-E77C-17D8-428002349001" name="TBL_OPNIIONES_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:27:27 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038A86B4-FD04-A844-3D9A-FB47F9CE6F71"/>
+<colUsage columnID="F5A9AB15-775F-0951-2D14-B840CA7A02CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C115759D-2019-4B6D-BF9A-2285EACFAD18" name="TBL_OPNIIONES_TBL_CATEGORIA_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:59:29 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038A86B4-FD04-A844-3D9A-FB47F9CE6F71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CF29EA-C48A-17B6-30EF-4269FF3240F4" name="TBL_OPNIIONES_TBL_HOTELES_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:59:37 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A9AB15-775F-0951-2D14-B840CA7A02CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF39259-2AD9-9475-2A7B-675794A9B3B9" name="TBL_OPNIIONES_TBL_PERSONA_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:52:04 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F8C9ED-4E81-277A-1047-6C91C3D69335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

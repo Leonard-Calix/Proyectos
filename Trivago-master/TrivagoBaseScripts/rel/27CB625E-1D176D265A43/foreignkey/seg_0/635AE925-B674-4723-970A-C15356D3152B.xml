@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="635AE925-B674-4723-970A-C15356D3152B" containerWithKeyObject="B4266357-1EB3-E444-12E2-B68706677160" localFKIndex="A51E91EF-1774-7BB7-11E6-9A9B9EB26BBA" name="TBL_ESTADIA_X_HOTEL_TBL_ESTADIA_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:38:42 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<referredTableLongName>TBL_ESTADIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0874106-6030-F816-BDF6-F317ADF17B8F</referredTableID>
+<keyObject>C02D8A94-D08A-7FD6-7FF3-8146331D0AB4</keyObject>
+<referredKeyID>C02D8A94-D08A-7FD6-7FF3-8146331D0AB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

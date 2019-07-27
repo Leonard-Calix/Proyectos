@@ -1,0 +1,344 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.github-icon-nav{
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.navbar{
+    margin: 0px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background: #24292E !important;
+}
+
+.div-nav-custom {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sign{
+    font-weight: 600 !important;
+    color: #FFFFFF;
+}
+
+.sign:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 24px;
+    
+   
+}
+
+#li-1{
+    margin-left: 8px;
+}
+
+@media(max-width:950px){
+    #li-1{
+        margin-left: 24px;
+    }
+}
+
+.anchor-li{
+    padding: 8px 0px 8px 0px !important;
+    color: #FFFFFF !important;
+   
+}
+.anchor-li:hover{
+    color: #C8C9CA !important;
+}
+
+/*terminan clases para el nav IMPORTANTE para el copy paste XD*/
+
+.background-principal{
+    background-image: linear-gradient(180deg, rgba(27,31,35,0.065), rgba(27,31,35,0)) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 200px !important;
+}
+
+.div-principal{
+    padding: 32px 16px;
+    max-width: 1012px;
+    margin: 0px auto;
+}
+
+.h1-custom{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #24292e;
+}
+
+.p-custom{
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 21px;
+    color: #586069;
+}
+
+.steps-font-custom{
+    font-size: 32px;
+    color: #0366D6;
+}
+
+.div-step-custom{
+    padding: 10px 15px;
+}
+
+.div-steps-principal{
+    margin-top: 30px;
+    border: 1px solid #dfe2e5;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(27,31,35,0.05);
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.div-selected{
+    background-color: #FFFFFF;
+    border-left: 1px solid #dfe2e5;
+}
+
+.div-notselected{
+    background-color: #FAFBFC !important;
+    color: #C6CBD1;
+    border-left: 1px solid #dfe2e5;
+}
+
+.steps-font-notselected{
+    font-size: 32px;
+    color: #C6CBD1 !important;
+}
+
+.display-none{
+    display:none;
+}
+
+.h2-custom{
+    margin-bottom: 4px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #24292e;
+}
+
+.txt-signup-custom{
+    width: 100%;
+    background-color: #fafbfc;
+    padding: 6px 8px;
+    line-height: 20px;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.p-signup{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #586069;
+    margin-bottom: 15px;
+}
+
+.p-final{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #24292e;
+}
+
+.btn-signup {
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+    font-weight: 600;
+    width: 35%;
+}
+
+@media(max-width:560px){
+    .btn-signup{
+        width: 50% !important;
+    }
+}
+
+.cuadrito-derecha{
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.075);
+    max-width: 33.33%;
+    height: 50%;
+    margin-left: auto;
+}
+
+@media(max-width:762px){
+    .cuadrito-derecha{
+        display: none;
+    }
+}
+
+h2{
+    margin: 0px;
+}
+
+.m-0{
+    margin: 0px;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
+/*clases para el segundo div que desaparecera*/
+.margin-0{
+    margin: 0px;
+}
+
+.cuadro-derecho2{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.075);
+    max-width: 33.33%;
+    height: 50%;
+}
+
+@media(max-width:762px){
+    .cuadro-derecho2{
+        display: none;
+    }
+}
+
+/*clases 3er div (desaparecer)*/
+.h3-question{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.text-area-custom{
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+    width: 45%;
+}
+
+.margin-questions{
+    margin-bottom: 30px;
+}
+
+/*clase aniadida para modo de pago (credito-paypal)*/
+.span-pago{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.rbt-credit{
+    position: relative !important;
+    right: -13% !important;
+}
+
+.label-credit{
+    border: 1px solid gray !important;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 8px 10px 8px 35px;
+    cursor: pointer;
+}
+
+.rbt-paypal{
+    position: relative !important;
+    right: -6% !important;
+}
+
+.label-paypal{
+    border: 1px solid gray;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 8px 10px 8px 35px;
+    margin-left: -19px;
+    cursor: pointer;
+}
+
+/*CLASES FOOTER*/
+.display-flex{
+    display: flex;
+}
+
+.div-footer{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ul-footer{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.github-icon-custom{
+    color:#c6cbd1;
+    font-size: 26px;
+}
+
+.github-icon-margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-icon-custom:hover{
+    color: #959da5;
+}
+
+.fontsize-12px{
+    font-size: 12px;
+}
+
+.mr-16px{
+    margin-right: 16px;
+}
+
+@media(max-width:860px){
+    .div-footer{
+        display: none;
+    }
+}

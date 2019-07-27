@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96DB5FE3-5B0F-B975-EF94-47325F170C04" name="TBL_COMENTARIO">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:02:32 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="839B3887-FA84-4EF2-A8FD-103DDE908968">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:03:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_HOTEL" id="00690123-C8F8-4C1F-4CB4-459B3ED14FC4">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:04:15 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C073BAE4-F94D-E331-E386-17C365EEB6ED" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="E646160D-3966-B38E-B59E-796580854A93">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:53:22 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="863E0CF2-6520-A88F-9FD2-8701272F7447" referredColumn="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="73FB0D3A-27AC-22A3-D418-6E47313F7329">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:03:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="579E7562-52DE-D80F-569C-BB7D798E455A">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:03:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BBDCF94-EA25-4662-D2DF-62516036A240" name="TBL_COMENTARIO_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:03:56 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="839B3887-FA84-4EF2-A8FD-103DDE908968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E797D886-2FD9-2DB4-50E1-C1F603D9D213" name="TBL_COMENTARIO_TBL_HOTELES_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 22:04:15 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00690123-C8F8-4C1F-4CB4-459B3ED14FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCE6626B-0E6B-7D7E-9695-81939CF68003" name="TBL_COMENT_TBL_PERSON_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:53:22 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E646160D-3966-B38E-B59E-796580854A93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

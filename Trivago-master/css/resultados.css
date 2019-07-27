@@ -1,0 +1,596 @@
+.body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.navbar-brand{
+	font-size: 30px;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+#barra-horizontal{
+	height: 65px;
+	background-color: white;
+}
+#barra-horizontal2{
+	height: 115px;
+	background-color: #37454D;
+}
+#logoPrincipal{
+	padding-top: 20px;
+}
+#menu-principal{
+	height: 65px;
+}
+
+#favoritos{
+	border-left: 1px solid #EBECED ;
+	padding-top: 20px;	
+}
+#moneda{
+	border-left: 1px solid #EBECED;
+	text-decoration-color: black;
+	height: 65px;
+	padding-top: 20px;
+}
+#idioma{
+	border-left: 1px solid #EBECED;
+	height: 65px;
+	padding-top: 20px;
+
+}
+#cuenta{
+border-left: 1px solid #EBECED;
+	height: 65px;
+	padding-top: 20px;
+}
+.input-text{
+
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+}
+#linea1{
+	padding-top: 12px;
+
+}
+#linea2{
+	padding-top: 7px;
+}
+#barra-busqueda{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 40px;
+	   font-size: x-large;
+}
+#buscar{
+	border-radius: 0px;
+	height: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#fecha-entrada{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	margin-right: 7px;
+	height:45px; 
+
+}
+#fecha-salida{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	height:45px; 
+}
+#numero-personas{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	height:45px; 
+}
+.envoltura{
+	margin: 0px;
+	padding: 0px;
+}
+
+.margen1{
+	margin-top: 0.5em;
+}
+
+.borde1{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.flecha{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background: url(../img/flecha.png) no-repeat right #FFF;
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 appearance: none;
+}
+
+.menu-desplegable{
+	height: 36px; 
+	border-radius: 2px; 
+	border: 1px solid #9ba2a6; 
+	color: #37454d; 
+	font: inherit;
+}
+
+.h3-estilo1{
+	font-size: 16px; 
+	color: #37454d; 
+	margin-left: 1em;
+}
+
+.estilo-dropdown-menu{
+	text-align: left; 
+	vertical-align: middle; 
+	height: 36px;
+	width: 100%; 
+	display: inline-block; 
+	border-radius: 2px; 
+	border-top: 0;
+    border-right: 0; 
+    border-left: 0; 
+    cursor: pointer; 	
+    padding: 0.4em;
+    margin: 0.2em;
+    width: 98%
+}
+
+.i-compartir-enlace{
+	resize: none;
+    margin-bottom: 8px;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 12px 4px;
+    line-height: 1.25;
+    font-size: 12px;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid #9ba2a6;
+    border-radius: 2px;
+    color: #37454d;
+    height: 44px;
+    width: 100%;
+    display: block;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+}
+
+.sinborde{
+	margin: 0px;
+}
+
+.sinborde2{
+	margin: 10px;
+}
+
+.cont-inf-hot{
+	padding: 8px;
+	border: 1px solid #cdd0d2;
+	border-bottom: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	height: 180px;
+}
+
+.borde2{
+	padding: 0px;
+	height: 100%;
+}
+
+.img{
+	height: 100%;
+	width: 100%;
+}
+
+.cont-inf-hot-nombre{
+	font-size: 20px;
+	line-height: 1.25;
+	text-align: left;
+	text-overflow: ellipsis;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.estrellas-puntuacion{
+	padding-left: 10px;
+	color: #f6ab3f;
+}
+
+.borde3{
+	padding-left: 10px;
+}
+
+.borde31{
+	padding-left: 15px;
+}
+
+#direccion-hotel{
+	color: #37454d;	
+	margin-top: 10px;
+}
+
+.sinborde3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.oferta-precio{
+	border-right: 1px solid #cdd0d2;
+	border-left: 1px solid #cdd0d2;
+	color: #697379;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#perfil-dropdown-menu{
+	top: 62px; 
+    left: 172px;
+}
+#idioma-dropdown-menu{
+	top: 62px; 
+    left: 114px;
+}
+#moneda-dropdown-menu{
+	top: 62px; 
+    left: 57px;
+}
+#favoritos-dropdown-menu{
+	top: 62px;
+    left: -1px;
+}
+#cuartos-dropdown-menu{
+	    top: 53px;
+    left: 688px;
+}
+.dropdown a{
+	color: black;
+}
+
+.rating-div{
+		background-color: #007400;
+		border-radius: 2px;
+		margin: 0px;
+		width: 2em;
+		height: 2em;
+		border: 0px;
+		padding-lef: 15px;
+		color: white;
+		padding-top: 4px;
+		padding-left: 5.5px;
+		font-size: 12px;
+}
+
+.rating-div-op{
+	padding-top: 4px;
+	font-size: 14px;
+	padding-right: 0px;
+}
+
+#font-wifi{
+	font-size: 1.3em;
+	color: #37454d;
+	padding-top: 20px;
+	margin-right: 7px;
+}
+
+#opiniones{
+	margin-top: 10px;
+}
+
+#ofrece-wifi{
+	margin-top: 10px;
+}
+
+.bloque-en-linea{
+	display: inline-block;
+}
+
+.bloque-no-linea{
+	display: block;
+}
+
+#mas-ofertas{
+	width: 90%;
+	margin-left: 6px;
+	border-top: 1px solid #cdd0d2;
+	padding-left: 14px;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.empresas-comodas{
+	font-size: 11px;
+	width: 100px;
+	margin: 0px;
+	margin-left: 35px;
+}
+
+.centrado{
+	top: 50%;
+	left: 50%;
+}
+
+#ir-oferta{
+	width: 99%;	
+	border: 0px;
+	height: 45px;
+	background-color: #66a400;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+.empresas-mas-comoda{
+	font-size: 16px;
+	width: 100px;
+	margin: 0px;
+	margin-left: 53px;
+}
+
+#barra-izquierda{
+	padding-top: 1.5em;
+	padding-left: 25px;
+	padding-right: 5px;
+}
+#cuadro-mapa{
+	background-image: url("../img/maps.png");
+	height: 100px;
+	padding-top: 31px;
+}
+.cuadro-filtro{
+	background-color: white;
+	box-shadow: 1px 1px 6px #888888;
+	padding: 14px;	
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#btn-mapa{
+	height: 38px;
+	width: 90px;
+	border: solid 1px black ;
+	text-align: center;
+	padding-top: 8px;
+	margin: auto;
+	background-color: white;
+}
+#cuadro-mapa-externo{
+	box-shadow: 1px 1px 6px #888888;
+	background-color: white;
+	padding: 6px;
+}
+#c-titulo-filtro{
+	margin-top: 12px;
+	height: 45px;
+}
+#c-estrellas{
+	height: 92px;
+}
+#c-puntuacion{
+	height: 92px;
+}
+#c-precio{
+	height: 130px;
+}
+#c-distancia{
+	height: 225px;
+}
+#c-mas-buscado{
+	height: 118px;
+}
+#c-busacdor-nomnbre{
+	height: 100px;
+}
+#c-borrar-filtros{
+	height: 78px;
+}
+
+#div-opciones{
+	padding: 8px;
+	border: 1px solid #cdd0d2;
+	border-top: 0px;
+	margin: 10px;
+	margin-top: 0px;
+	background-color: #ffffff;
+	border-radius: 2px;
+}
+
+.separador{
+	border-top: 1px solid #cdd0d2;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#div-contenedor-opciones{
+	margin-top: 8px;
+}
+
+.div-botoncerrar{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 70px;
+	padding: 0px;
+	margin-left: 50px;
+}
+
+.btn-botoncerrar{
+	border: 1px solid #333;
+	border-radius: 2px;
+	height: 36px;
+}
+
+.oferta-empresas-opcion{
+	border: 1px solid #cdd0d2;
+	margin-top: 15px;
+}
+
+.empresa{
+	margin-top: 5px;
+	border-bottom: 1px solid #cdd0d2;
+	height: 46px;
+}
+
+.img-empresa{
+	height: 100%; width: 100%;
+}
+
+.inf-opcion-empresa{
+	border-left: 1px solid #cdd0d2;
+	border-right: 1px solid #cdd0d2;
+	padding-top: 7px;
+}
+
+.estilo-plan-empresa{
+	font-size: 12px; margin-bottom: 0px;
+}
+
+.estilo-oferta-empresa{
+	color: #66a400; font-size: 12px;
+}
+
+.estilo-dinero-empresa{
+	height: 100%; color: #66a400; font-size: 15px; margin-top: 10px;
+}
+
+.estilo-strong-dinero-empresa{
+	margin-left: 12px; width: 100%
+}
+
+.estilo-span-strong-dinero-empresa{
+	margin-left: 7px;
+}
+
+.carusel-fotos-hotel{
+	padding: 35px;
+}
+
+.ancho-100{
+	width: 100%;
+}
+
+.alto-100{
+	height: 100%;
+}
+
+.opciones-de-hotel{
+	padding: 0px;
+	padding-top: 13px;
+	margin-right: 0px; 
+	height: 100%;
+	color: #a9a8a8;
+}
+
+.opciones-de-hotel:hover{
+	background-color: #ece8e7;
+	border-radius: 0px;
+	color: #333;
+}
+
+.boxes{
+	border: 1px solid #cdd0d2;
+}
+
+.opinion-class{
+	width: 100%;
+	padding-bottom: 20px;
+	height: 100%
+}
+
+@media screen and (max-width: 500px;){	
+	#buscar{
+		width: 15%;
+		height: 40px;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: top;
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	#filtros{
+		left: -210px;
+		position: absolute;
+		z-index: 2;
+	}
+
+	#filtros:hover{
+		left: 0%;
+	}
+
+	#parte-central{
+		padding-left: 40px;
+	}
+
+	#linea1{
+		width: 100%;
+		padding: 20px;
+	}
+	#linea2{
+		width: 100%;
+		padding: 20px;
+		padding-top: 0px;
+	}
+
+	#barra-horizontal2{
+		height: 280px;
+	}
+
+	#barra-busqueda{
+		width: 83%;
+		height: 40px;
+		margin: 0px;
+	}
+
+	#buscar{
+		width: 15%;
+		height: 40px;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: top;
+	}
+
+	#fecha-entrada{
+		width: 100%;
+	}
+
+	#fecha-salida-div{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 15px;
+	}
+
+	#numero-personas-div{
+		margin-top: 15px;
+		width: 100%
+	}
+
+	#numero-personas{
+		width: 100%;
+	}
+
+}
+
+

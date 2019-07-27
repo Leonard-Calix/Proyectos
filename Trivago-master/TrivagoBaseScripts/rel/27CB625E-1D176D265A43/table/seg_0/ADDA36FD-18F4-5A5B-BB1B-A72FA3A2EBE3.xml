@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADDA36FD-18F4-5A5B-BB1B-A72FA3A2EBE3" name="TBL_HABITACION">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:37:37 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HABITACION" id="09DDEE1F-E62A-EF9E-9E87-7C85A0434AA6">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:38:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_HABITACION" id="6BD773BB-BA5B-677F-6F36-02616FD8BBD8">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:39:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF373D1B-892D-EAD2-8662-12A393D9488D" referredColumn="7D7EBFD7-718F-1E75-A1C6-A0508ACE5CF9"/>
+</associations>
+</Column>
+<Column name="CODIGO_CAPACIDAD_HABITACION" id="9F34621A-ED1C-2919-DEFA-4BFBDF680251">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:16:12 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B38FB16F-234F-532C-8978-D408CB757EEB" referredColumn="A3FD2E7B-F07F-D9CE-EA2A-1BAB5E6F4CD2"/>
+</associations>
+</Column>
+<Column name="NUMERO_HABITACION" id="18340D99-C640-056A-8C05-06446B739C7D">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:44:15 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_DISPONIBLES" id="4319F3F2-4B07-9B20-6908-95F43E62E421">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:44:42 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_RESERVADAS" id="EC10C49E-D1AA-8E54-936C-0B3E47BD254A">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:45:13 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6859234-7724-8267-17EC-74C1B2A450BA" name="TBL_HABITACION_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:38:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09DDEE1F-E62A-EF9E-9E87-7C85A0434AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21F497C3-768E-5D0C-0659-02C719445DD5" name="TBL_HABITACION_TBL_TIPO_HABITACION_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:39:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD773BB-BA5B-677F-6F36-02616FD8BBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FFC6F49-A395-E8C2-BA88-5CCDA09ADAAB" name="TBL_HABITACION_TBL_CAPACIDAD_HABITACION_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:16:12 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F34621A-ED1C-2919-DEFA-4BFBDF680251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

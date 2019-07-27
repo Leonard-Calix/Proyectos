@@ -1,0 +1,190 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Mar Nov 14 22:05:09 2017
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/******** -parfile export.par 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 1.5 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "TRIVAGO"."TBL_USUARIO"                     9.781 KB       8 rows
+. . exported "TRIVAGO"."TBL_CAPACIDAD_HABITACION"        5.531 KB       4 rows
+. . exported "TRIVAGO"."TBL_CATEGORIA"                   5.625 KB      10 rows
+. . exported "TRIVAGO"."TBL_CIUDAD"                      6.273 KB      22 rows
+. . exported "TRIVAGO"."TBL_COMENTARIO"                  6.820 KB       4 rows
+. . exported "TRIVAGO"."TBL_ESTADIA"                     5.492 KB       4 rows
+. . exported "TRIVAGO"."TBL_ESTADIA_X_HOTEL"             5.515 KB       6 rows
+. . exported "TRIVAGO"."TBL_ESTADO_RESERVACION"            5.5 KB       2 rows
+. . exported "TRIVAGO"."TBL_GENERO"                      5.468 KB       2 rows
+. . exported "TRIVAGO"."TBL_HABITACION"                   7.25 KB       4 rows
+. . exported "TRIVAGO"."TBL_HABITACION_X_HOTEL"          5.921 KB       4 rows
+. . exported "TRIVAGO"."TBL_HISTORIAL_BUSQUEDA"          6.835 KB       5 rows
+. . exported "TRIVAGO"."TBL_HOTELERO"                    7.804 KB       5 rows
+. . exported "TRIVAGO"."TBL_HOTELES"                     6.960 KB       7 rows
+. . exported "TRIVAGO"."TBL_HOTELES_FAVORITOS"           5.953 KB       3 rows
+. . exported "TRIVAGO"."TBL_OPINIONES"                   6.375 KB       6 rows
+. . exported "TRIVAGO"."TBL_PAIS"                        5.664 KB      15 rows
+. . exported "TRIVAGO"."TBL_RESERVACIONES"               8.492 KB       3 rows
+. . exported "TRIVAGO"."TBL_SERVICIOS"                   5.710 KB      15 rows
+. . exported "TRIVAGO"."TBL_SERVICIOS_POR_HOTEL"         5.562 KB      10 rows
+. . exported "TRIVAGO"."TBL_TEMPORADA"                   5.484 KB       3 rows
+. . exported "TRIVAGO"."TBL_TEMPORADA_X_HOTEL"           5.937 KB       3 rows
+. . exported "TRIVAGO"."TBL_TIPO_HABITACION"             5.921 KB       4 rows
+. . exported "TRIVAGO"."DMRS_ADDITIONAL_CT_OBJECTS"          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_AGGR_FUNC_DIMENSIONS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_AGGR_FUNC_LEVELS"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ATTRIBUTES"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_AVT"                            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_BUSINESS_INFO"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CHANGE_REQUEST_ELEMENTS"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CHANGE_REQUESTS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CHECK_CONSTRAINTS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CLASSIFICATION_TYPES"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_COLLECTION_TYPES"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_COLUMN_GROUPS"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_COLUMNS"                        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_COLUMN_UI"                      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONSTR_FK_COLUMNS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONSTR_INDEX_COLUMNS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONTACT_EMAILS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONTACT_LOCATIONS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONTACT_RES_LOCATORS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONTACTS"                       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CONTACT_TELEPHONES"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CUBE_DIMENSIONS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_CUBES"                          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DATA_FLOW_DIAGRAM_INFOS"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DESIGNS"                        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DIAGRAM_ELEMENTS"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DIAGRAMS"                       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DIMENSION_CALC_ATTRS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DIMENSION_LEVELS"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DIMENSIONS"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DISTINCT_TYPES"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOCUMENT_ELEMENTS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOCUMENTS"                      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOMAIN_AVT"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOMAIN_CHECK_CONSTRAINTS"       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOMAINS"                        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DOMAIN_VALUE_RANGES"            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_DYNAMIC_PROPERTIES"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EMAILS"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ENTITIES"                       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ENTITY_ARCS"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ENTITYVIEWS"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EVENTS"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXISTENCE_DEP"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXISTENCE_DEP_COLUMNS"          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXT_AGENT_EXT_DATAS"            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXT_AGENT_FLOWS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXTERNAL_AGENTS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_EXTERNAL_DATAS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FACT_ENTITIES"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FACT_ENTITIES_JOINS"            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FK_CD_CONSTRAINTS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FK_CD_CONSTRAINTS_COLS"         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FLOW_INFO_STRUCTURES"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FLOWS"                          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_FOREIGNKEYS"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_GLOSSARIES"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_GLOSSARY_TERMS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_HIERARCHIES"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_HIERARCHY_LEVELS"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_HIERARCHY_ROLLUP_LINKS"         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_INDEXES"                        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_INFO_STORES"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_INFO_STRUCT_ATTRS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_INFO_STRUCTURES"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_KEY_ATTRIBUTES"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_KEY_ELEMENTS"                   0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_KEYS"                           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LARGE_TEXT"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LEVEL_ATTRS"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LEVELS"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LOCATIONS"                      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LOGICAL_TO_NATIVE"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_LOGICAL_TYPES"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MAPPINGS"                       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MAPPING_TARGETS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MAPPING_TARGET_SOURCES"         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MASK_TEMPLATES"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MEASURE_AGGR_FUNCS"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MEASURE_FOLDER_MEASURES"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MEASURE_FOLDERS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MEASUREMENTS"                   0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MEASURES"                       0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MODEL_DISPLAYS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MODEL_NAMING_OPTIONS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MODELS"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_MODEL_SUBVIEWS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_NATIVE_TO_LOGICAL"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_NOTES"                          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_PK_OID_COLUMNS"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_PROCESS_ATTRIBUTES"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_PROCESS_ENTITIES"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_PROCESSES"                      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RAGGED_HIER_LINK_ATTRS"         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RAGGED_HIER_LINKS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RDBMS_SITES"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RECORD_STRUCT_EXT_DATAS"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RECORD_STRUCTURES"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RELATIONSHIPS"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RESOURCE_LOCATORS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RES_PARTY_CONTACTS"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RES_PARTY_ELEMENTS"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_RESPONSIBLE_PARTIES"            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ROLE_PROCESSES"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ROLES"                          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ROLLUP_LINK_ATTRS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_ROLLUP_LINKS"                   0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SCHEMA_OBJECT"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SENSITIVE_TYPES"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SLICE_DIM_HIER_LEVEL"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SLICE_MEASURES"                 0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SLICES"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SOURCE_INFO"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SPATIAL_COLUMN_DEFINITION"      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_SPATIAL_DIMENSIONS"             0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_STRUCT_TYPE_ATTRS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_STRUCT_TYPE_METHOD_PARS"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_STRUCT_TYPE_METHODS"            0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_STRUCTURED_TYPES"               0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TABLE_ARCS"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TABLE_CONSTRAINTS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TABLE_INCLUDE_SCRIPTS"          0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TABLES"                         0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TABLEVIEWS"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TASK_PARAMS"                    0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TASK_PARAMS_ITEMS"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TELEPHONES"                     0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TRANSFORMATION_FLOWS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TRANSFORMATION_PACKAGES"        0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TRANSFORMATIONS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TRANSFORMATION_TASK_INFOS"      0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TRANSFORMATION_TASKS"           0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TSDP_POLICIES"                  0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_TSDP_SUB_POLICIES"              0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_VALUE_RANGES"                   0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_VIEW_COLUMNS"                   0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_VIEW_CONTAINERS"                0 KB       0 rows
+. . exported "TRIVAGO"."DMRS_VIEW_ORDER_GROUPBY"             0 KB       0 rows
+. . exported "TRIVAGO"."TBL_FOTOS_HOTELES"                   0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\TMP\DEMO\EXPORT\EXPORT_DEMO.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 22:06:40

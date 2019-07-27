@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<?php 
+    include_once '../conexion/conexionOracle.php';
+    $conexion = new Conexion();
+
+ ?>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Join GitHub · GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/github-icono.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container div-nav-custom">
+      <a class="navbar-brand anchor-img" href="../landing-page/index.html">
+        <i class="fab fa-github github-icon-nav"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="margin-right: 383px !important">
+          <li class="nav-item" id="li-1">
+            <a class="nav-link anchor-li" href="../generica/index.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-li" href="../generica/index.html">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-li" href="../generica/index.html">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-li" href="../generica/index.html">Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-li" href="../generica/index.html">Pricing</a>
+          </li>
+        </ul>
+        
+        <span>
+          <a href="../login/index.html" class="sign">Sign in</a>
+          <span style="color: #586069">or</span>
+          <a href="#" class="sign">Sign up</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="background-principal">
+    <div class="div-principal">
+
+        <!--DIV1 DESAPARECER JUNTO A TODO LO DEMAS DEL CUERPO-->
+        <div id="div1-titulo-desaparecer">
+            <h1 class="h1-custom">Join GitHub</h1>
+            <p class="p-custom">The best way to design, build, and ship software.</p>
+        </div>
+
+        <!--DIV2 DESAPARECER (MOVER HACIA ARRIBA ANTES DE LOS PASOS)-->
+        <div id="div2-titulo-desaparecer" class="display-none">
+            <h1 class="h1-custom">Welcome to GitHub</h1>
+            <p class="p-custom">You've taken your first step into a larger world, <span id="nombre-generado"></span></p>
+        </div>
+
+        <!--DIV3 DESAPARECER (MOVER HACIA ARRIBA ANTES DE LOS PASOS)-->
+        <div id="div3-titulo-desaparecer" class="display-none">
+            <h1 class="h1-custom">Welcome to GitHub</h1>
+            <p class="p-custom">You’ll find endless opportunities to learn, code, and create,  <span id="nombre-generado2"></span></p>
+        </div>
+
+        <div class="row div-steps-principal">
+
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 row div-step-custom div-selected" id="step1">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"><i class="fas fa-user-tie steps-font-custom"></i></div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <strong>Step 1:</strong>
+                    <p>Create an account</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 row div-step-custom div-notselected" id="step2">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"><i class="fab fa-squarespace steps-font-custom steps-font-notselected" id="icon2"></i></div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <strong>Step 2:</strong>
+                    <p>Choose your plan</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 row div-step-custom div-notselected" id="step3">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"><i class="fas fa-cogs steps-font-custom steps-font-notselected" id="icon3"></i></div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <strong>Step 3:</strong>
+                    <p>Tailor your experience</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--DIV1 DESAPARECER-->
+        <div class="form-signup row" id="div1-principal-desaparecer">
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h2 class="h2-custom">
+                    Create your personal account
+                </h2>
+
+                <label for="txt-username">Username</label>
+                <input type="text" class="txt-signup-custom form-control" name="txt-username" id="txt-username">
+                <p class="p-signup">This will be your username. You can add the name of your organization later.</p>
+
+                <label for="txt-email">Email address</label>
+                <input type="email" class="txt-signup-custom form-control" name= "txt-email" id="txt-email">
+                <p class="p-signup">We’ll occasionally send updates about your account to this inbox. We’ll never share your email address with anyone.</p>
+
+                <label for="txt-password">Password</label>
+                <input type="password" class="txt-signup-custom form-control" name="txt-password" id="txt-password">
+                <p class="p-signup">Use at least one lowercase letter, one numeral, and seven characters.</p>
+
+                <hr>
+
+                <p class="p-final">
+                    By clicking “Create an account” below, you agree to <a href="#">our terms of service</a> and <a href="#">privacy statement</a>. We’ll occasionally send you account related emails.
+                </p>
+
+                <hr>
+
+                <button type="button" class="btn btn-success btn-signup" id="crear-cuenta">Create an account</button>
+            </div>
+
+            <div class="col-0 col-sm-0 col-md-6 col-lg-6 col-xl-6 cuadrito-derecha">
+                <h2 class="padding-15">You’ll love GitHub</h4>
+                <hr class="m-0">
+                <div class="padding-15">
+                    <p class="p-final">Unlimited collaborators</p>
+                    <p class="p-final">Unlimited public repositories</p>
+                </div>
+                <hr class="m-0">
+                <div class="padding-15">
+                    <div class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Great communication</p></div>
+                    <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Frictionless development</p></div>
+                    <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Open source community</p></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--div3 que desaparece-->
+        <div id="div3-principal-desaparecer" class="display-none">
+
+            <div class="margin-questions">
+                <h3 class="h3-question">How would you describe your level of programming experience?</h3>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-level1" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-level1">Very experienced</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-level2" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-level2">Somewhat experienced</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-level3" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-level3">Totally new to programming</label>
+                </div>
+            </div>
+
+            <div class="margin-questions row">
+                <h3 class="h3-question">What do you plan to use GitHub for? <span style="color: gray">(check all that apply)</span></h3>
+                <div class="col-xl-12">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline1" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline1">Development</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline2" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline2">School projects</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline3" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline3">Research</label>
+                    </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline4" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline4">Project Management</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline5" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline5">Design</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="customcheckboxInline6" name="rbt-level" class="custom-control-input">
+                        <label class="custom-control-label" for="customcheckboxInline6">Other (please specify)</label>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="margin-questions">
+                <h3 class="h3-question">Which is closest to how you would describe yourself?</h3>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-describe1" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-describe1">I'm a hobbyist</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-describe2" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-describe2">I'm a professional</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbt-describe3" name="rbt-level" class="custom-control-input">
+                    <label class="custom-control-label" for="rbt-describe3">I'm a student</label>
+                </div>
+            </div>
+
+
+            <div class="margin-questions">
+                <h3 class="h3-question">What are you interested in?</h3>
+                <input type="text-area" class="text-area-custom">
+                <p class="p-signup">e.g. tutorials, android, ruby, web-development, machine-learning, open-source</p>
+            </div>
+
+
+            <div class="margin-questions">
+                <a href="../login/index.html"><button type="button" class="btn btn-success btn-signup" id="crear-cuenta3">ingresar</button></a><!--pendiente hacer que aniada la info en usuarios-->
+            </div>
+            <hr>
+        </div>
+        <!--fin del div3-->
+
+        <!--DIV2 PRINCIPAL QUE DESAPARECERA, MANTENER AQUI-->
+        <div id="div2-principal-desaparecer" class="row display-none">
+
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><input type="radio" id="rbt-free" name="rbt-mode"><label for="rbt-free" class="margin-0">Unlimited public repositories for free.</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="rbt-pay" name="rbt-mode"><label for="rbt-pay" class="margin-0">Unlimited private repositories for $7/month.</label><a href="#">(view in HNL)</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="p-signup">Don’t worry, you can cancel or upgrade at any time.</p>
+                <div id="div-mostrar-private" class="display-none">
+                    <span class="span-pago">Choose your payment method</span>
+                    <div class="form-check form-check-inline ml-18px">
+                        <input style="margin-top: 15px;" class="form-check-input rbt-credit" type="radio" name="modo-pago" id="rbt-credit" value="credit">
+                        <label class="form-check-label label-credit" for="rbt-credit">Credit card</label>
+                    
+                        <input style="margin-top: 15px;" class="form-check-input rbt-paypal" type="radio" name="modo-pago" id="rbt-paypal" value="paypal">
+                        <label class="form-check-label label-paypal" for="rbt-paypal">PayPal account</label>
+                    </div>
+                </div>
+                <hr>
+                
+                <div class="row">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"><input type="checkbox" id="chk-help"></div>
+                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                        <label for="chk-help" class="margin-0">Help me set up an organization next</label>
+                        <p class="p-signup" style="margin-bottom: 0px">Organizations are separate from personal accounts and are best suited for businesses who need to manage permissions for many employees.<br><a href="#">Learn more about organizations</a></p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row" style="margin-bottom: 15px">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"><input type="checkbox" id="chk-updates"></div>
+                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                        <label for="chk-updates" class="margin-0">Send me updates on GitHub news, offers, and events</label>
+                        <p class="p-signup" style="margin-bottom: 0px">Unsubscribe anytime in your email preferences.<a href="#"> Learn more</a></p>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-success btn-signup" id="crear-cuenta2" style="width: 15%">Continue</button>
+                <hr>
+                
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-xl-4 cuadro-derecho2">
+                <h2 class="padding-15">Both plans include:</h4>
+                <hr class="m-0">
+                <div class="padding-15">
+                        <div class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Collaborative code review</p></div>
+                        <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Issue tracking</p></div>
+                        <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Open source community</p></div>
+                        <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Unlimited public repositories</p></div>
+                        <div style="margin-top: 3px;" class="p-final"><i class="fas fa-check" style="color: green; display: inline;"></i><p style="display: inline;">Join any organization</p></div>
+                    </div>
+            </div>
+
+            
+        </div>
+        <!--cierra el div 2 que desaparece-->
+
+        
+
+        <div class="display-flex div-footer">
+                <ul class="display-flex ul-footer">
+                    <li class="fontsize-12px mr-16px">
+                        © 2018 GitHub, Inc.
+                    </li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Terms</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Privacy</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Security</a></li>
+                    <li><a href="#" class="fontsize-12px">Status</a></li>
+                </ul>
+                
+                <a href="../landing-page/index.html" class="github-icon-margin"><i class="fab fa-github github-icon-custom"></i></a>
+
+                <ul class="display-flex ul-footer">
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Contact GitHub</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Pricing</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">API</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Training</a></li>
+                    <li class="mr-16px"><a href="#" class="fontsize-12px">Blog</a></li>
+                    <li><a href="#" class="fontsize-12px">About</a></li>
+                </ul>
+        </div>
+
+    </div>
+  </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AC8226C-B3A5-319D-C98B-1088B19E8125" name="TBL_HOTELERO">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:55:13 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HOTELERO" id="DE9B65A1-B090-2254-8604-128CE49D3669">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:56:21 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_HOTEL" id="B9A9EBAE-ADA0-70B0-4EBA-AE7923F55729">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:03:19 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="887B6BB2-3DB2-E2DA-BF10-496FB745F800" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="2A1DB981-4589-20E7-B3E4-218E7EBA0C68">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:00:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="A7143FCD-B5FE-569C-ACB8-CBDF566C15F8">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:02:47 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="473E0120-74DE-FE63-2505-CBCA6732F3A0" referredColumn="43DAC129-2062-F5AD-5595-7BF4F12F56AB"/>
+</associations>
+</Column>
+<Column name="APELLIDO" id="B2AE70D7-99C3-0BA9-8E9A-88F921D75093">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:01:10 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO " id="767654E2-B686-2955-2058-7F274FC5F963">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:01:54 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="F8B8CC19-A3A4-4E70-A853-DB8BB008216B">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:02:15 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5432743-3E91-6322-C4BE-EA800EB7A3A1" name="TBL_HOTELERO_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 22:56:21 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE9B65A1-B090-2254-8604-128CE49D3669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC4EAC09-3656-6306-F096-6D4ADB3FA086" name="TBL_HOTELERO_TBL_GENERO_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:02:47 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7143FCD-B5FE-569C-ACB8-CBDF566C15F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECB5640E-7700-EF37-50EF-753240F94163" name="TBL_HOTELERO_TBL_HOTELES_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:03:18 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A9EBAE-ADA0-70B0-4EBA-AE7923F55729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+body{
+    background-color: #F9F9F9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height: 48px;
+    width: 48px;
+}
+
+.div-img{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+h1{
+    color: #24292e;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;    
+}
+
+.div-form{
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+form{
+    padding: 20px !important;
+}
+
+label{
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #24292e;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 6px 8px;
+    font-size: 14px !important;
+    border: 1px solid #d1d5da !important;
+    border-radius: 3px !important;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+
+.btn{
+    margin-top: 5px;
+    padding: 6px 12px !important;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+    color:#ffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px !important;
+}
+
+button::placeholder{
+    color: #BDC1C5;
+}
+
+.li-1{
+    list-style-type: none;
+    display: inline;
+    font-size: 12px !important;
+}
+
+.div-2{
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+    height: 18px;
+}
+
+li{
+    margin-right: 16px;
+}
+
+.li{
+    margin-right: 0px;
+}
+
+.anchor-3g{
+    text-decoration: none;
+}
+
+.anchor-color{
+    color: #24292e;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #0366D6;
+}
+
+ul{
+    padding: 0px;
+}
+
+.p-validar{
+    width: 308px;
+    background-color:#FFDCE0 !important;
+    color: #86181d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px 20px;
+    border-radius: 3px;
+    border: 1px solid #DDC0C4;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.btn-x{
+    float: right;
+    background-color: transparent; 
+    border: transparent
+}
+
+i{
+    opacity: 0.25;
+}
+
+i:hover{
+    opacity: 1;
+}
+
+.display{
+    display: none;
+}

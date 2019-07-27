@@ -1,0 +1,285 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.nav-custom{
+    background-color: #24292E !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.div-nav-custom{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-position-custom{
+    position: absolute;
+    right: 15%;
+    width: inherit;
+    display: inherit;
+}
+
+@media (max-width: 991.98px){
+    .li-custom{
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 512px){
+    .form-display-none{
+        display: none;
+    }
+}
+
+.github-icon-nav{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.txt-search{
+    background: url(../img/search-button.png);
+    background-repeat: no-repeat;
+    background-size: 19px 20px;
+    background-position: 95% 50%;
+    background-color: #3F4448;
+    height: 30px;
+    width: 300px !important;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: -0.5px;
+    font-size: 13px !important;
+    font-family: inherit !important;
+    padding: 6px 8px;
+    font-weight: 600
+}
+
+.div-navbar-ul{
+    align-items: center;
+    display: flex !important;
+}
+
+.anchor-nav{
+    color: #ffffff !important;
+    
+}
+
+.font-awesome-customs{
+    color: #C8C9CB !important;
+}
+
+.img-usuarios{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+/*hasta ahorita eestas son de nav*/
+
+.mg-r-220{
+    margin-right: 220px;
+}
+
+.main-container{
+    max-width: 1012px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.hr-1{
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+}
+
+.h2-font24px{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #24292E;
+}
+
+.p-font14px{
+    font-weight: 400;
+    font-size: 14px;
+    color: #586069;
+    line-height: 21px;
+}
+
+.dis-inlineblock{
+    display: inline-block;
+}
+
+.pclass{
+    font-size: 24px !important;
+    color: #586069 !important;
+}
+
+.form-custom{
+    color: #24292e;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+}
+
+.select-custom{
+    border-radius: 4px !important;
+    border: 1px solid rgba(27,31,35,0.2);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+label{
+    font-weight: 600;
+}
+
+.span-block{
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #586069;
+}
+
+.font-lock-size{
+    font-size: 32px;
+    color: #B9AD87;
+}
+
+.font-book-size{
+    color: #959DA5;
+    font-size: 32px;
+}
+
+.rbt-margin{
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.p-custom{
+    font-size: 12px;
+    line-height: 18px;
+    color: #586069;
+}
+
+.rbt-credit{
+    position: relative !important;
+    right: -13% !important;
+}
+
+.label-credit{
+    border: 1px solid gray;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 8px 10px 8px 35px;
+    cursor: pointer;
+}
+
+.rbt-paypal{
+    position: relative !important;
+    right: -6% !important;
+}
+
+.label-paypal{
+    border: 1px solid gray;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 8px 10px 8px 35px;
+    margin-left: -19px;
+    cursor: pointer;
+}
+
+.ml-18px{
+    margin-left: -18px;
+}
+
+.i-custom{
+    padding: 2px 4px;
+    background: #fffbdd;
+    border-radius: 3px;
+    font-style: normal !important;
+    font-weight: 600;
+}
+
+.span-pago{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.div-chk{
+    margin: 15px 0px;
+    padding-left: 20px;
+}
+
+.chk-repository{
+    margin-left: -20px;
+    margin-top: 5px;
+}
+
+.label-chk{
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.display-none{
+    display: none;
+}
+
+.widht-selected{
+    width: 10px;
+}
+
+.dropdown-menu-custom{
+    width: 300px;
+    background-color: rgb(246, 248, 250);
+}
+
+
+/*clases footer*/
+.display-flex{
+    display: flex;
+}
+
+.div-footer{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ul-footer{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.github-icon-custom{
+    color:#c6cbd1;
+    font-size: 26px;
+}
+
+.github-icon-margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-icon-custom:hover{
+    color: #959da5;
+}
+
+.fontsize-12px{
+    font-size: 12px;
+}
+
+.mr-16px{
+    margin-right: 16px;
+}

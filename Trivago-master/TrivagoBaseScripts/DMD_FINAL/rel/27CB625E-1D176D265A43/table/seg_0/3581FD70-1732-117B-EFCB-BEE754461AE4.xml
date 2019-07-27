@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3581FD70-1732-117B-EFCB-BEE754461AE4" name="TBL_RESERVACIONES">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:31:43 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RESERVACION" id="147F6CAB-F34B-9387-7162-08DD074065D5">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:07:49 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_HOTEL" id="6C23CF2F-92AB-8D8B-06D8-C149C5EAC832">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:32:16 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97D1DD1C-C902-DFD5-C9CD-D5B689061F16" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABITACION" id="7C488DE1-7DBB-845A-245B-4C2AD3F15CCA">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:33:12 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6EE9143-C610-7FA9-3216-77CA52BB82CF" referredColumn="09DDEE1F-E62A-EF9E-9E87-7C85A0434AA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="79F2A841-8F17-F804-5808-CC4A5605BF71">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:56:40 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BC833A0-DD1E-5C01-9C4B-6F0EA647994B" referredColumn="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_RESERVACION" id="0C283FA8-1A64-F718-ED96-F325FA101EAE">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:06:27 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF1FB7A0-3314-F039-FCD7-1AF1B762ECFB" referredColumn="DCEB46C2-0069-C0EB-66E0-47AD06AAE0FA"/>
+</associations>
+</Column>
+<Column name="FECHA_ENTRADA" id="0E82F55A-C5C0-9C79-2E68-70642066509D">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:55:57 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SALIDA" id="5954D2ED-3DEB-2266-5F65-32F2045BFF7A">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:55:57 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_ADULTOS" id="C921E26F-829D-DD32-2377-18425EA0CA78">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:55:57 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_NIÑOS" id="C67BA492-3A31-9082-6AFC-EB29605394C1">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:55:57 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80F3173D-5004-F61E-48F5-DE1D01B02CCA" name="TBL_RESERVACIONES_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:07:49 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147F6CAB-F34B-9387-7162-08DD074065D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BAECBC-3B74-5C57-0C0D-6A85D46EF8DF" name="TBL_RES_TBL_HO_FK">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:32:16 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C23CF2F-92AB-8D8B-06D8-C149C5EAC832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26729A48-0603-245C-CF84-89FBA7E0D12E" name="TBL_RESE_TBL_HAB_FK">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 04:33:12 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C488DE1-7DBB-845A-245B-4C2AD3F15CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="430A5D67-669A-2248-280A-5CABF3AEF976" name="TBL_RES_TBL_PER_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:56:40 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79F2A841-8F17-F804-5808-CC4A5605BF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD884F5-FDB5-7F4D-80EE-B0A0E64298B1" name="TBL_RES_TBL_EST_RES_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:06:27 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C283FA8-1A64-F718-ED96-F325FA101EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

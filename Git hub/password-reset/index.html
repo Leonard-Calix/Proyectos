@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forgot your password? · GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/custom.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+</head>
+<body>
+    <div class="div-img">
+        <img src="img/logo.png" alt="logo github">
+    </div>
+
+    <center><h1>Reset your password</h1></center>
+
+    <p id="p-validacion" class="p-validar display">Can't find that email, sorry.<button type="button" class="btn-x" onclick="cerrarDiv('p-validacion');" id="btn-cerrar"><i class="fas fa-times"></i></button>
+    </p>
+
+    <div class="div-form">
+        <form class="form-control">
+            <label>Enter your email address and we will send you a link to reset your password.</label>
+            <input type="email" placeholder="Enter your email address" class="form-control" id="input-txt">
+            <button type="button" class="btn btn-success form-control" onclick="ejecutar();">Send password reset email</button>
+        </form>
+    </div>
+
+    <div class="div-2">
+        <ul>
+            <li  class="li-1"><a href="#" class="anchor-3g">Terms</a></li>
+            <li  class="li-1"><a href="#" class="anchor-3g">Privacy</a></li>
+            <li  class="li-1"><a href="#" class="anchor-3g">Security</a></li>
+            <li  class="li-1 li"><a href="#" class="anchor-3g anchor-color">Contact GitHub</a></li>
+        </ul>
+    </div>
+
+    <script src="js/controlador.js"></script>
+</body>
+</html>

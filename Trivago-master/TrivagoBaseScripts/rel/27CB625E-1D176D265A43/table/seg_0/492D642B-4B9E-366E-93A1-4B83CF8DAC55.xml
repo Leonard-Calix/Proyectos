@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="492D642B-4B9E-366E-93A1-4B83CF8DAC55" name="TBL_ESTADO_RESERVACION">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:04:52 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_RESERVACION" id="DCEB46C2-0069-C0EB-66E0-47AD06AAE0FA">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:05:36 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_RESERVACION" id="C55F4EBB-9435-8CFB-6C55-EE46CA1C5DD2">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:06:11 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16D9625C-D771-701E-F57D-BB12DB031A3E" name="TBL_ESTADO_RESERVACION_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 23:05:36 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCEB46C2-0069-C0EB-66E0-47AD06AAE0FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

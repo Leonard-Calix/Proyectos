@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEC4D150-A497-DF40-7664-D62D8889B422" name="TBL_TEMPORADA_X_HOTEL">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:02:48 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TEMPORADA" id="EDE2CD66-B0AF-97F2-3920-9661BC4E88BC">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:03:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9BF7AC5-6BAD-EC63-5DFC-41388AEF51DA" referredColumn="07B02916-C9A1-54B9-6572-D592772FEC3F"/>
+</associations>
+</Column>
+<Column name="CODIGO_HOTEL" id="878A9507-0595-5AB6-80D7-E9F175BA1C5C">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:04:18 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD7375CD-4D61-F3A5-F019-C0A54FFD411F" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="PORCENTAJE_CAMBIO" id="CC2197F8-C481-F28A-97D7-CD1D2FE6EFE3">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:11:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46C62D78-652D-7A13-74D4-FE818EF0BBBB" name="TBL_TEMPORADA_X_HOTEL_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:04:00 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE2CD66-B0AF-97F2-3920-9661BC4E88BC"/>
+<colUsage columnID="878A9507-0595-5AB6-80D7-E9F175BA1C5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CC5AAB-184D-3A76-3CEF-FCE237624BB5" name="TEMP_X_HOTEL_TBL_TEM_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:03:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE2CD66-B0AF-97F2-3920-9661BC4E88BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04962F06-EB12-7DAE-9CCB-9BB0BD0F50CB" name="TBL_TEMP_X_HOTEL_TBL_HOT">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:04:18 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="878A9507-0595-5AB6-80D7-E9F175BA1C5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F53A096F-D46A-6373-E5F4-57F394E88F57" name="TBL_GENERO">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:19:09 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="43DAC129-2062-F5AD-5595-7BF4F12F56AB">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:20:33 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_GENERO" id="8CC2D7C2-46EE-64CE-81F4-ED8E8A95C27C">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:20:33 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F10C79D4-5E06-57D7-A08A-930E1BF4B288" name="TBL_GENERO_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:20:33 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43DAC129-2062-F5AD-5595-7BF4F12F56AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

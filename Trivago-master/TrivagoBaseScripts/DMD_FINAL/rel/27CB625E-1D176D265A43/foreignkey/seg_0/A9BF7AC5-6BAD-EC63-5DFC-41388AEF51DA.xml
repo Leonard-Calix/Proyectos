@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9BF7AC5-6BAD-EC63-5DFC-41388AEF51DA" containerWithKeyObject="FEC4D150-A497-DF40-7664-D62D8889B422" localFKIndex="22CC5AAB-184D-3A76-3CEF-FCE237624BB5" name="TEMP_X_HOTEL_TBL_TEM_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:03:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<referredTableLongName>TBL_TEMPORADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFADE8E9-66D6-446C-B2F4-F938D5A8A017</referredTableID>
+<keyObject>53A2040C-9362-12CD-FD47-1DD3DF71DF2D</keyObject>
+<referredKeyID>53A2040C-9362-12CD-FD47-1DD3DF71DF2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TEMPORADA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

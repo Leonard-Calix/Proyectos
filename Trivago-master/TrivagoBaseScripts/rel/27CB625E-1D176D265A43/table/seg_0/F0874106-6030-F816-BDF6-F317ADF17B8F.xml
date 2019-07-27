@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0874106-6030-F816-BDF6-F317ADF17B8F" name="TBL_ESTADIA">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:33:18 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADIA" id="2E7FB186-FC08-94DA-5B85-34CD3E7F3D42">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:33:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO_ESTADIA" id="C525928D-4594-3320-4A8D-989F3B5E8DF9">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:34:42 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C02D8A94-D08A-7FD6-7FF3-8146331D0AB4" name="TBL_ESTADIA_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:34:07 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E7FB186-FC08-94DA-5B85-34CD3E7F3D42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

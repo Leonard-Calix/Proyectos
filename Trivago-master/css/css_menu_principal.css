@@ -1,0 +1,116 @@
+#contenedor_general{
+	width: 100%;
+	/*max-width: 2000px;*/
+	box-sizing: border-box;
+}
+
+#barra-horizontal{
+	width: 100%;
+	margin: 0px;
+}
+
+.menu{
+	padding: 0px;
+	height: 65px;
+	width: 25%;
+
+}
+
+#menu-principal{
+	padding: 0px;
+}
+
+.opcion_menu{
+	padding: 0px;
+}
+
+#corazon{
+	padding-left: 20px;
+}
+
+#cuenta{
+	padding-left: 10px;
+}
+
+#moneda{
+	padding-left: 10px;
+}
+
+#fila_menu2{
+	display: none;
+	width: 100%;
+}
+
+#contenedor_menu_pequenio{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	padding: 17px;
+}
+
+#a_trivago{
+	/*margin-left: 68%;*/
+}
+
+#trivago{
+	width: 95%
+	height:100%;
+	display: inline-block;
+	float: left;
+}
+
+#menu_pequenio{
+	width: 100%;
+	height: 100%;
+	padding: 10%
+}
+
+.enlaces_menu2{
+	color: black;
+	font-size: 1.5em;
+	border-top: 1px solid #b9acaa;	
+	width: 180px;
+	height: 100%;
+}
+
+#menu-principal2{
+	margin: 0px;
+	height: 50%;
+	width: 200px;
+	padding-left: 1px;
+	border: 1px solid #b9acaa;	
+	padding-top: 20px;
+	padding-bottom: 15px;
+	left: -100%;
+	display: none;
+}
+
+.ico-{
+	margin: 0px auto;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+@media screen and (max-width: 1100px){
+	#fila_menu1{
+		display: none;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	#fila_menu2{
+		display: block;
+	}
+
+	#menu-principal2{
+		display: block;
+	}
+
+}
+
+
+@media screen and (max-width: 400px){
+
+}

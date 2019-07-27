@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C21FCBD3-DD09-A034-FC90-7805775EFA6C" name="TBL_SERVICIOS_POR _HOTEL">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:31:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HOTEL" id="C7F10443-0A36-82F5-25FD-2EA32EAE7A79">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:33:50 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E667DD45-8F5A-F8E1-BF85-DB9843DEA277" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="CODIGO_SERVICIO" id="A5F1219E-9ACB-2ABC-D33B-CFA59599539B">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:33:01 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F5DDF6A-B742-CE3B-8949-4A3106EDBD96" referredColumn="C91768EC-7066-A0B7-32C8-CCA216DAAA30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EDBEB91-BA4D-D5A4-B0F0-1046FA0E4A28" name="TBL_SERVICIOS_POR _HOTEL_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:34:09 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7F10443-0A36-82F5-25FD-2EA32EAE7A79"/>
+<colUsage columnID="A5F1219E-9ACB-2ABC-D33B-CFA59599539B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A09ADFB8-A4BA-CFFC-EF22-774022A089CE" name="TBL_SER_HOL_TBL_SER_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:33:01 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F1219E-9ACB-2ABC-D33B-CFA59599539B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B7E9466-17A5-694C-167F-D48F5EBA328D" name="TBL_SER_TBL_HOT_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-24 21:33:50 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7F10443-0A36-82F5-25FD-2EA32EAE7A79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFADE8E9-66D6-446C-B2F4-F938D5A8A017" name="TBL_TEMPORADA">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:26:53 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TEMPORADA" id="07B02916-C9A1-54B9-6572-D592772FEC3F">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:28:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPORADA" id="742CE32B-7A07-B914-9151-F9B89D43D657">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:29:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53A2040C-9362-12CD-FD47-1DD3DF71DF2D" name="TBL_TEMPORADA_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 22:28:05 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B02916-C9A1-54B9-6572-D592772FEC3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

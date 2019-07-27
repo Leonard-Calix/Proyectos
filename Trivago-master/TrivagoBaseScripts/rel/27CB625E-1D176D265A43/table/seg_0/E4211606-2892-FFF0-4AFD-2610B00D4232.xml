@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4211606-2892-FFF0-4AFD-2610B00D4232" name="TBL_FOTOS_HOTELES">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:58:37 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTO_HOTEL" id="0738A265-4FD1-E0BC-E196-01B26E5B3E89">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 22:05:50 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_HOTEL" id="086B2A15-F45C-6090-6CAA-A396514CCE86">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 22:06:06 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7025E977-1D27-1BA3-EDD2-6CC259FD9A65" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="NOMBRE_FOTO" id="A9914234-41EF-6D93-3500-73060126A6F1">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:36:34 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO" id="39D2A179-5118-1FCD-3B1E-A8F4D1A86967">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:37:13 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E088A571-4882-943D-F252-357CBB5CF589" name="TBL_FOTOS_HOTELES_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 22:05:50 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0738A265-4FD1-E0BC-E196-01B26E5B3E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD4139F7-244C-2327-6A70-88E466473E36" name="TBL_FOTOS_HOTELES_TBL_HOTELES_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 22:06:06 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="086B2A15-F45C-6090-6CAA-A396514CCE86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

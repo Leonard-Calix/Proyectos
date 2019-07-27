@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7FCE81D-3151-8FA7-E9CD-9826922DD322" name="TBL_CAPACIDAD_HABITACION">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:15:22 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CAPACIDAD_HABITACION" id="A3FD2E7B-F07F-D9CE-EA2A-1BAB5E6F4CD2">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:16:03 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD" id="59269EE5-F375-09C3-AB2D-CAE4058AD14A">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:47:43 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8086F994-202B-E59E-D73E-847428C95A41" name="TBL_CAPACIDAD_HABITACION_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:16:03 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3FD2E7B-F07F-D9CE-EA2A-1BAB5E6F4CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

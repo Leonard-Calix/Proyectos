@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47C0F681-E973-85DF-3B2F-CBEC82056456" name="TBL_USUARIO">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:05:28 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="6EEC7C65-A997-35B6-5EA4-DF5B84195C96">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:10:20 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="06A3E645-CA5B-36E3-A6A2-D1D3F2469CC8">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:20:39 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69037BD8-FC0E-54CB-F168-FB38A8B1ED05" referredColumn="43DAC129-2062-F5AD-5595-7BF4F12F56AB"/>
+</associations>
+</Column>
+<Column name="CODIGO_CIUDAD" id="5A9559D5-4CE3-99C0-1836-E6638928EF2C">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:42:10 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1B6F74-E829-2917-B677-74FC31A0159A" referredColumn="212A244B-EA90-C04C-97E4-329B18A2DD24"/>
+</associations>
+</Column>
+<Column name="CODIGO_POSTAL" id="27CBB366-BC18-2949-2180-DE5ACF0A2CBF">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:14:04 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_USUARIO" id="97E93C65-A296-9C99-CC70-68854EE9107B">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 21:01:12 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="71CFF9EA-A56A-5130-269B-FE493BB28D5E">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:11:08 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="182C7992-E8A9-7F94-EE03-96CC2E481881">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:12:00 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="3EC0BFE1-69E8-3158-0083-9457C1B36A51">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:12:00 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="88EEDC38-0C3F-4006-7409-B04BA441CFBE">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:12:44 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="7D4B4F80-C172-070A-9F73-88BCE26C7284">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:26:45 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO" id="0814FF5E-9A9F-971C-6B7D-31CFD2CE6259">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:58:33 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87332C38-17D2-A925-FA69-1B05F519B96F" name="TBL_PERSONA_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:10:20 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96408709-7C31-DF18-4634-B343054A2658" name="TBL_PERSONA_TBL_GENERO_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:20:39 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06A3E645-CA5B-36E3-A6A2-D1D3F2469CC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="181EFB1E-616B-5DEF-5616-F5320740129B" name="TBL_PERSONA_TBL_CIUDAD_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:42:10 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A9559D5-4CE3-99C0-1836-E6638928EF2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

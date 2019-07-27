@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42EA4780-D55F-D3DF-9CAD-B58311DA4982" name="TBL_HOTELES">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:42:47 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HOTEL" id="B0106D3C-F4BD-506D-809A-15214150A682">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:44:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CIUDAD" id="29311D54-39EB-46F1-AAE6-1C980837FB7F">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 01:18:28 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6209C257-F366-26AC-187C-5BB1769BAF89" referredColumn="212A244B-EA90-C04C-97E4-329B18A2DD24"/>
+</associations>
+</Column>
+<Column name="NOMBRE_HOTEL" id="55804C33-6849-1518-09FA-15B7513C8435">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:44:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="CFC9FF24-6D6D-9947-96C9-C69CB2DCE497">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:44:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTRELLAS" id="E75C91F1-9EDE-9A30-9AE7-2F6FE34C2D26">
+<createdBy>Josue</createdBy>
+<createdTime>2017-11-06 20:40:02 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42C1E229-99C3-B5A0-7C1C-BB9E759B0F4E" name="TBL_HOTELES_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:44:14 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7444ED5B-E369-50BC-977D-C43E6E94545A" name="TBL_CIUDAD">
+<createdBy>Hector Bardales</createdBy>
+<createdTime>2017-11-06 01:18:28 UTC</createdTime>
+<ownerDesignName>DMD_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29311D54-39EB-46F1-AAE6-1C980837FB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
