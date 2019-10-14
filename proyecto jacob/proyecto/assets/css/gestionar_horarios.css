@@ -1,0 +1,17 @@
+.modal.bottom-sheet {
+    max-height: 90vh !important;
+}
+
+.modal.modal-fixed-footer {
+    height: 90% !important;
+}
+
+.btn_resultados,
+.btn_entrevista {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-content {
+    padding: 10px !important;
+}
